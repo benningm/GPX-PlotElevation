@@ -33,7 +33,7 @@ use Geo::Gpx;
 use Geo::Distance;
 use Chart::Gnuplot;
 
-sub new($) {
+sub new {
 	my $invocant = shift();
 	my $class = ref($invocant) || $invocant;
 
